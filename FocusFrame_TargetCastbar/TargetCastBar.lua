@@ -5,7 +5,7 @@ local castbar = _G.Focus_TargetCastingBar
 -- Check if using incompatible FocusFrame version
 local version = string.gsub(GetAddOnMetadata("FocusFrame", "version"), "%W", "")
 if tonumber(version) <= 122 then
-    return DEFAULT_CHAT_FRAME:AddMessage("|cffFF0000TargetCastbar requires FocusFrame v1.2.3+ to work.|r")
+    return DEFAULT_CHAT_FRAME:AddMessage("|cffFF0000TargetCastBar requires FocusFrame v1.2.3+ to work.|r")
 end
 
 local function CastingBarOnUpdate()

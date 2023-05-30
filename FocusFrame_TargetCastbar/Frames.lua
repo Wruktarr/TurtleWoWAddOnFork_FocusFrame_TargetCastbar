@@ -47,5 +47,5 @@ castbar.shield:SetTexture("Interface\\AddOns\\FocusFrame\\Media\\UI-CastingBar-S
 castbar.shield:Hide()
 
 if FocusFrameDB.strictAuras then
-    DEFAULT_CHAT_FRAME:AddMessage("Warn: TargetCastbar doesn't work with strict auras enabled.")
+    DEFAULT_CHAT_FRAME:AddMessage("Warn: TargetCastBar doesn't work with strict auras enabled.")
 end
